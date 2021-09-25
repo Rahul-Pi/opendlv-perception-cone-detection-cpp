@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+    percpetion-cone-detection:
+        image: opendlv-perception-cone-detection-cpp
+        restart: on-failure
+        network_mode: "host"
+        ipc: "host"
+        volumes:
+            - /tmp:/tmp
+        environment:
+            - DISPLAY=${DISPLAY}
+        command: "--cid=111 --name=img.argb --width=1280 --height=720 --verbose"
