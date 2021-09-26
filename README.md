@@ -1,6 +1,22 @@
 # opendlv-perception-cone-detection-cpp
 
-How to get the program running:
+An OpenDLV microservices program developed for an autonomous robot to detect cones thereby the path using Aim point method. 
+
+OpenDLV is a modern open source software developed by [Chalmers Revere](https://github.com/chalmers-revere/opendlv) for self-driving vehicles. 
+
+[Kiwi](https://github.com/chalmers-revere/opendlv-tutorial-kiwi) is miniature robotic vehicle platform from Chalmers Revere.
+
+This is a part of the TME290 - Autonomous Robots course.
+
+The final output can be visualised in the following video:\
+[![Alt text](https://img.youtube.com/vi/jhfS7JRv390/0.jpg)](https://www.youtube.com/watch?v=jhfS7JRv390)\
+[![Alt text](https://img.youtube.com/vi/-a4kTpBodwI/0.jpg)](https://www.youtube.com/watch?v=-a4kTpBodwI)
+
+
+# How to get the program running:
+
+Pre-requisite:
+1. Docker must be installed.
 
 ################################### Part A: ##############################################
 
